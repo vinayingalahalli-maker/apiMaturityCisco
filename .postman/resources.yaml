@@ -1,0 +1,18 @@
+workspace:
+  id: 4bfc1b90-5a79-4b7d-ad54-89a7318bfb78
+resourceNameMappings:
+  specs:
+    - ../postman/specs/inventory-api.yaml: inventory-api.yaml
+    - ../postman/specs/orders-api.yaml: orders-api.yaml
+    - ../postman/specs/shipping-api.yaml: shipping-api.yaml
+cloudResources:
+  collections:
+    ../postman/collections/Inventory API: 60064800-3e504075-00b3-4a9f-bca4-35d1cd9cc2c7
+    ../postman/collections/Orders API: 60064800-99e01dd9-f323-4291-9e17-dfe02309ce9a
+    ../postman/collections/Shipping API: 60064800-2025f63c-5f72-4fbd-ba0d-245163058a03
+  specs:
+    ../postman/specs/inventory-api.yaml: 0c30c7d7-d6c0-4f7d-bd93-fe66295b4d93
+    ../postman/specs/orders-api.yaml: 39de4f67-133e-4298-8131-eb2d1fbf6e16
+    ../postman/specs/shipping-api.yaml: d45fbf1b-ab1e-41f1-84e4-c96e27e508dd
+  globals:
+    ../postman/globals/workspace.globals.yaml: 0dfebceb-a19b-4b03-84c7-14347e6a5776
